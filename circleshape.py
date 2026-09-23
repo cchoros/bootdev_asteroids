@@ -9,7 +9,7 @@ class CircleShape(pygame.sprite.Sprite):
         if hasattr(self, "containers"):
             super().__init__(*self.containers)
         else:
-            suiper().__init__()
+            super().__init__()
 
         self.position: pygame.Vector2 = pygame.Vector2(x, y)
         self.velocity = pygame.Vector2(0, 0)
